@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbff00; 
+}
+
+header {
+    text-align: center;
+    background-color: #66CCFF; 
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+table td {
+    padding: 5px;
+}
+
+.popup {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.popup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.popup button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #030303; 
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}

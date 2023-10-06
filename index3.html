@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Друга сторінка</title>
+    <link rel="stylesheet" href="style14.css"></link>
+</head>
+<body>
+  <header>
+    <h1>Моя друга сторінка</h1>
+</header>
+<main>
+    <div class="popup">
+        <input type="text" id="popupText" placeholder="my project">
+        <button onclick="showPopup()">Показати спливаюче вікно</button>
+    </div>
+    <a href="index2.html">Повернутися на першу сторінку</a>
+</main>
+
+<script>
+    function showPopup() {
+        var text = document.getElementById("popupText").value;
+        alert(text);
+    }
+</script>
+  <script src="main14.js"></script>
+</body>
+</html>
